@@ -21,7 +21,8 @@ module Spree
       end
 
       def channel
-        object.order.channel || 'spree'
+        #object.order.channel || 'spree'
+        'spree'
       end
 
       def cost
